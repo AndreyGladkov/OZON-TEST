@@ -1,0 +1,14 @@
+{
+  "author": "andreiGladkov",
+  "name": "ozon-test",
+  "email": "andrewgladkovlz@gmail.com",
+  "version": "0.0.0",
+  "ignore": [
+    ".enb/tmp",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-core": "v2.6.0"
+  }
+}
