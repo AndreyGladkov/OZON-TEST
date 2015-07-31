@@ -1,0 +1,14 @@
+block('col')(
+	content()(function(){
+		return [
+			{
+				elem: 'body',
+				content: this.ctx.body
+			},
+			{
+				elem: 'footer',
+				content: this.ctx.footer
+			}
+		]
+	})
+)

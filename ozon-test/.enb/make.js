@@ -40,7 +40,7 @@ module.exports = function (config) {
             [enbBemTechs.levels, { levels: getDesktops(config) }],
             // autoprefixer
             [require('enb-autoprefixer/techs/css-autoprefixer'), {
-                browserSupport: ['last 2 versions', 'ie 10', 'ff 24', 'opera 12.16'],
+	            browserSupport: ['last 5 versions', 'IE > 8', 'Opera > 11', 'Firefox >= 5', 'Chrome > 10'],
                 sourceTarget: '?.noprefix.css'
             }]
         ]);
